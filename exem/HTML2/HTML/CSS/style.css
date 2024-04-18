@@ -1,0 +1,48 @@
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+body{
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Poppins", sans-serif;
+}
+.title{
+    color:brown;
+    margin-block-start: auto;
+}
+
+.header{
+    background-color: aqua;
+    position: fixed;
+    width: 100vw;
+    top: 0px;
+    height: 90px;
+
+}
+.header_fill{
+    width: 100vw;
+    height: 120px;
+}
+
+
+.header_logo{
+
+    padding-top: 30px;
+    height: 90px;
+}
+
+.header_links{
+
+    margin-left: 20px;
+}
+
+.pading_section{
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
