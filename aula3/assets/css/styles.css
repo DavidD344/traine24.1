@@ -1,0 +1,296 @@
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.container_button {
+  width: 100%;
+  height: 150px;
+  background-color: whitesmoke;
+
+  display: flex; /* Deixa o container flexivel */
+
+  flex-direction: column; /*  Define o primeiro eixo de organização*/
+
+  justify-content: space-evenly; /* Define  a organização do primeiro eixo de organização */
+
+  align-items: center; /* Define a organização do segundo eixo(Mais limitado) */
+}
+
+.button_more {
+  display: flex;
+  flex-direction: column;
+
+  background-color: #ea1d2c;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  font-style: normal;
+  height: fit-content;
+  width: fit-content;
+  border-radius: 6px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  transition: all 0.3s;
+  height: 34px;
+}
+
+.button_more:hover {
+  background-color: #e74852;
+  height: 340px;
+}
+
+.pading_section {
+  padding-left: 12vw;
+  padding-right: 12vw;
+}
+
+.header {
+  width: 100vw;
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(0, 255, 255);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.header_fill {
+  width: 100%;
+  height: 90px;
+}
+
+.header_nav {
+  background-color: blue;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.mobile_header_menu {
+  height: 40px;
+  width: 40px;
+  background-color: red;
+  display: none;
+  cursor: pointer;
+}
+.banner {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: calc(100vh - 90px);
+  background-image: url("../imagens/Silksong-Screenshots-_0009_11.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.uber_container {
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: red;
+}
+.uber_container_img {
+  width: 50%;
+  height: fit-content;
+}
+.uber_container_content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  padding-left: 80px;
+  padding-right: 40px;
+  row-gap: 30px;
+}
+.uber_container_content_title {
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.uber_container_content_text {
+  font-weight: 400;
+  font-size: 16px;
+}
+.uber_container_content_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  gap: 20px;
+}
+
+.botao_do_zap {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.malphzap {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+}
+.malphzap_icon {
+  height: 24px;
+  width: 24px;
+}
+
+/* card element */
+.card_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  column-gap: 32px;
+  row-gap: 48px;
+
+  padding-top: 8vh;
+}
+.card_element {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  max-width: 360px;
+}
+.card_element_title {
+  padding-top: 24px;
+  padding-bottom: 16px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.card_element_text {
+  font-size: 16px;
+  font-weight: 300;
+  padding-bottom: 36px;
+}
+/* forms */
+
+.forms_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    padding-top: 90px;
+    background-color: #44c2e5;
+    padding-bottom: 90px;
+
+}
+.forms{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+    max-width: 360px;
+    padding:32px;
+    background-color: white;
+}
+.forms_title{
+    font-size: 22px;
+    font-weight: 500;
+    color:#44c2e5;
+  
+}
+.input_default{
+
+    height: 40px;
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 16px;
+    border: 1px solid #abaaaa;
+background-color: #fefefe;
+}
+.button_default{
+    width: 100%;
+    height: 40px;
+    border: none;
+
+    background-color: #44c2e5;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.button_default:hover{
+background-color: aqua;
+}
+/* forms */
+
+@media (max-width: 1200px) {
+  .uber_container {
+    background-color: purple;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    row-gap: 60px;
+  }
+  .uber_container_img {
+    width: 100%;
+  }
+  .uber_container_content {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .uber_container_content_title {
+    font-size: 32px;
+  }
+  .uber_container_content_box {
+    padding-top: 40px;
+  }
+
+  .card_container {
+    flex-direction: column;
+    justify-content: start;
+  }
+  .card_element {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    justify-content: start;
+    column-gap: 20px;
+  }
+  .mobile_header_menu {
+    display: block;
+  }
+
+  .header_nav {
+    display: none;
+  }
+  .pading_section {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}

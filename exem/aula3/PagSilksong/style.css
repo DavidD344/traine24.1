@@ -1,0 +1,115 @@
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+   background-color: rgb(7, 6, 12);
+
+}
+a{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+
+}
+.navbar{
+    background-color: rgb(4, 4, 4);
+    color: white;
+    /* font-family: montserrat;  colocar pra funcionar essa fonte*/
+    width: auto;
+    height: 72px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.img_background{
+    background-image: url(./assets/Silksong-Screenshots-_0010_10.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85em;
+    width: 100%;
+
+}
+.name_center{
+    width: 587px;
+    height: 306px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 500px;
+
+}
+h4{
+    border: 2px;
+    color: white;
+padding-top: 40px;    
+
+
+}
+.team_cherry{
+    border: 10px;
+    border-color: white;
+    border-radius: 50%;
+
+}
+.hornet{
+    display: flex;
+    height: 472px;
+    width: 960px;
+    margin-top: 200px;
+    border-radius: 5%;
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(233, 223, 255, 0.19);
+
+}
+h3{
+    color: rgba(236, 236, 236, 0.80);
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.platforms{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+    
+}
+.platforms_img{
+    width: 200px;
+    height: 145px;  
+
+}
+h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
+.border{
+    color: white;
+    border-radius: 5%;
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(233, 223, 255, 0.19);
+}
+.aolado{
+    display: inline;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.alinhar{
+    text-align: center;
+}

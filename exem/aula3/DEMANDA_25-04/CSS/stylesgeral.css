@@ -1,0 +1,104 @@
+
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    background-color: #000000;
+
+}
+
+main{
+
+    background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    #000000; 
+background-image: url(../imagem/Silksong/Silksong-Screenshots-_0010_10.png); 
+background-size:cover;
+background-position: center;
+background-repeat: no-repeat;
+
+}
+.header{
+
+    background: blue;
+    width: 100vw;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    position: fixed;
+    height: 90px;
+    top: 0;
+    left: 0;
+}
+.header_fill{
+height: 90px;
+width: 100%;
+}
+
+.logo_branco_silksong {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  
+  .o_segundo {
+      color: white;
+      text-align: center;
+      margin-bottom: 20px;
+      padding-top: 20px;
+  }
+
+ .navbar a{ 
+    list-style-type: none;
+    text-align: center;
+    color: white;
+} 
+.navbar{
+
+display: flex;
+width: 100%;
+flex-direction: row;
+background-color: green;
+align-items: center;
+justify-content: space-between;
+}
+
+
+
+.abaixo_lbs {
+    text-align: center ;
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.disponivel {
+    color: white;
+ font-family: Arial, Helvetica, sans-serif;
+ margin-top: 40px;
+ text-align: center;
+ font-weight: lighter;
+}
+
+.imagens_logo_1, .imagens_logo_2, .imagens_logo_3, .imagens_logo_4 {
+    display: inline-block;
+}
+.pading_section{
+
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+.container_logos{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
