@@ -1,0 +1,256 @@
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(7, 6, 12) ;
+}
+
+#nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    padding: 1%;
+}
+
+#team{
+    background-color: black;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    padding: 4px;
+    padding-left: 5px;
+}
+
+#jogo{
+    align-items: center;  
+    background-image: url(./Images/backgorund.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10%;
+}
+
+#O_segundo{
+    width: auto;
+    color: white;
+    border-radius: 15px;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;   
+    font-size: 20px; 
+}
+
+#imgLogo{
+    display: flex;
+    margin-top:  30px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+
+#hornet{
+    
+   display: flex;
+   border-radius: 15px;
+   box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.568);
+   
+}
+
+#plataforma{
+    align-items: center;  
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+}
+
+#disponivel{
+    font-size: 40px;
+}
+
+#log{
+    padding-top: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#historia{
+    align-items: center;  
+    display: flex;
+    flex-direction: column;
+    padding-top: 10%;
+}
+
+#ascenda{
+    font-size: 50px;
+}
+
+#hist1{
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#text1{
+    padding-top: 65px;
+    padding-bottom: 65px;
+    background-color: rgb(7, 7, 15);
+    border-radius: 15px;
+    font-size: 15px;
+    text-align:center;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.568);
+}
+
+#hist2{
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#text2{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: rgb(7, 7, 15);
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.568);
+    font-size: 15px;
+    text-align:center;
+    padding-left: 10px;
+}
+
+#hist3{
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#text3{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: rgb(7, 7, 15);
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.568);
+    font-size: 15px;
+    text-align:center;
+    padding-left: 10px;
+}
+
+#footer{
+    width: 100%;
+    display: flex;
+   background-color: blue;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: start;
+   column-gap: 50px;
+
+}
+footer{
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+#team_endereco{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#endereco{
+    padding-left: 25%;
+}
+
+#contato_social{
+    display: flex;
+    flex-direction: row;
+    background-color: green;
+    align-items: center;
+    
+}
+
+#social{
+    padding-left: 24%;
+}
+
+#logocherry{
+    margin-top: -90px;
+}
+
+#ref{
+   
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 90px;
+    padding-left: 90px;
+}
+ #img4{
+    padding-top: 2%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ }
+#img4img{
+    width: 90%;
+    height: fit-content;
+}
+
+ @media (max-width: 1027px){
+    #hist1{
+        display: flex;
+        flex-direction: column;
+    } 
+    #hist2{
+        display: flex;
+        flex-direction: column;
+    }
+    #hist3{
+        display: flex;
+        flex-direction: column;
+    }
+    #log{
+        display: flex;
+        flex-direction: column;
+    } 
+    #team_enderecor{
+        display: flex;
+        flex-direction: column; 
+    } 
+    #contato_social{
+        display: flex;
+        flex-direction: column; 
+    }  
+    #ref{
+        display: flex;
+        flex-direction: column; 
+    }   
+ }
